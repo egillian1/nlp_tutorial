@@ -1,6 +1,7 @@
 import pickle
 from attn_decoder import AttnDecoderRNN
 from encoder import EncoderRNN
+from lang import Lang
 
 def dumpObjectToFile(object, location):
     with open(location, 'wb') as object_file:
